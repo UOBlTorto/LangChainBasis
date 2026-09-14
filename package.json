@@ -8,10 +8,11 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"langchain": "^1.5.11",
+		"@inquirer/prompts": "^8.7.2",
 		"@langchain/core": "^1.2.11",
 		"@langchain/openai": "^1.5.13",
 		"dotenv": "^17.4.2",
-		"@inquirer/prompts": "^8.7.2"
+		"langchain": "^1.5.11",
+		"zod": "^4.6.5"
 	}
 }
