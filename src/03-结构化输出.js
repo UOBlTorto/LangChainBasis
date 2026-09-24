@@ -45,7 +45,7 @@ const messages = [
 const outputSchema = z.object({
   time:z.string().describe('旅游几天?'),
   city:z.string().describe('旅游的城市'),
-  who:z.string().describe('谁去路由')
+  who:z.string().describe('谁去旅游')
 })
 const structuredModel = model.withStructuredOutput(outputSchema)
 const response = await structuredModel.invoke([
