@@ -11,6 +11,7 @@ const model = new ChatOpenAI({
     baseURL:process.env.OPENAI_BASE_URL
 });
 
+console.log('model==>',model)
 const question = await input({ message: 'Enter your question' });
 
 // const response = await model.invoke(new HumanMessage("Hello world!"));
